@@ -612,7 +612,7 @@ document.addEventListener("DOMContentLoaded", function() {
     restartAuto();
   });
 
- setInterval(showSlide(index), 3000); 
+  window.addEventListener("load", startAuto);
 });	
 </script>
 </body>
